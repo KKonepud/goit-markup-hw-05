@@ -395,7 +395,6 @@ input {
 }
 .footer-wrap-elements {
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
 }
 .footer-wrapper {
@@ -422,7 +421,6 @@ input {
   display: flex;
   flex-direction: row;
   gap: 16px;
-  /* margin-right: 80px; */
 }
 .footer-socials-link {
   display: flex;
@@ -441,6 +439,7 @@ input {
 .footer-subscribe {
   display: flex;
   flex-direction: column;
+  margin-left: auto;
 }
 .footer-form-caption {
   font-weight: 500;
