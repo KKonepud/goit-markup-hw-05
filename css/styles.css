@@ -595,11 +595,11 @@ input {
 }
 .order-form {
 }
-.form-wrapper:not(:last-child) {
+.form-wrapper {
   margin-bottom: 8px;
 }
-.form-wrapper:last-child {
-  margin-bottom: 0;
+.textarea-wrapper {
+  margin-bottom: 16px;
 }
 .order-label {
   display: block;
@@ -657,7 +657,6 @@ input {
 }
 .order-checkbox-label {
   display: block;
-  margin-top: 16px;
   margin-bottom: 24px;
 
   font-size: 12px;
